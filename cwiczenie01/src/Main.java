@@ -1,32 +1,25 @@
 import java.sql.SQLOutput;
 
 void main() {
-    System.out.println("hello world");
-    System.out.println("skrót");//przez skrót
+    //1
+    System.out.println("tymur");
+    System.out.println("Horus");
+    System.out.println("Perturabo");
+    //2
+    String imie = "Tymur";
+    double liczba = 0.66;
+    int rok = 2009;
+    int obecnyrok = 2026;
+    int wiek = obecnyrok-rok;
+    //3
+    System.out.println("Mam na imie" + imie + "i mam" + wiek + "lat" + "i bede pisał mature za" + liczba + "lat" );
+    //4
+    double stopnie;
 
-    System.out.print("coś bez entera");
-    System.out.println("nowa linia");
+    System.out.print("Podaj temperature w stopniach Celsjusza: ");
+    stopnie = Scanner.();
 
-    System.out.println("W taki sposob robie znaki specjalne");
-    System.out.println("\ttabulacja");
-    System.out.println("\nenter");
-    System.out.println("To jest jak na maszynie\rdo pisania");
-    System.out.println("\" cudzysłów\"");
-    System.out.println("\'apostrow\'");
-    System.out.println("backslasch: \\");
+    double fahrenheit = 1.8 * stopnie + 32.0;
 
-    int LiczbaCalkowita = 5;
-    double LiczbaRzeczywista;
-
-    LiczbaRzeczywista = (double) LiczbaCalkowita /2;
-
-    System.out.println("Wynik dzielenia liczby 5 przez 2 to" +LiczbaRzeczywista);
-
-    char znak = 'a';
-    System.out.println("Litera a ma wartość" + (znak + 0));
-
-    String napis = "napis";
-    System.out.println("Napis wielkimi literami: " + napis.toUpperCase());
-
-    System.out.println("Wynik 1 + 2 + 3 = " + 1 + 2 + 3);
-    System.out.println("Wynik 1 + 2 + 3 = " + (1 + 2 + 3));
+    System.out.println("Temperatura w stopniach Fahrenheita: " + fahrenheit);
+}
